@@ -1,0 +1,995 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B2A53171F80D54D001C7305 /* CellDescriptor.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B2A53161F80D54D001C7305 /* CellDescriptor.plist */; };
+		0B2E1F831F44485A00B1481E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2E1F821F44485A00B1481E /* AppDelegate.swift */; };
+		0B2E1F851F44485A00B1481E /* GustoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2E1F841F44485A00B1481E /* GustoViewController.swift */; };
+		0B2E1F881F44485A00B1481E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B2E1F861F44485A00B1481E /* Main.storyboard */; };
+		0B2E1F8A1F44485A00B1481E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B2E1F891F44485A00B1481E /* Assets.xcassets */; };
+		0B2E1F8D1F44485A00B1481E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B2E1F8B1F44485A00B1481E /* LaunchScreen.storyboard */; };
+		0B2E1F981F44485A00B1481E /* GustoDeliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2E1F971F44485A00B1481E /* GustoDeliTests.swift */; };
+		0B2E1FAB1F444ADE00B1481E /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2E1FAA1F444ADE00B1481E /* MenuViewController.swift */; };
+		0B2E1FAD1F4451B200B1481E /* LabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2E1FAC1F4451B200B1481E /* LabelTableViewCell.swift */; };
+		0B2E1FAF1F44714100B1481E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2E1FAE1F44714100B1481E /* ProfileViewController.swift */; };
+		0B2E1FB31F448CCB00B1481E /* CookDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2E1FB21F448CCB00B1481E /* CookDescriptionViewController.swift */; };
+		0B2E1FB51F448FBD00B1481E /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2E1FB41F448FBD00B1481E /* Helper.swift */; };
+		0B2E1FB71F449C0700B1481E /* CompleteOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2E1FB61F449C0700B1481E /* CompleteOrderViewController.swift */; };
+		0B2E1FB91F449D4100B1481E /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2E1FB81F449D4100B1481E /* ChangePasswordViewController.swift */; };
+		0B2E1FBB1F44A03700B1481E /* TextFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2E1FBA1F44A03700B1481E /* TextFieldTableViewCell.swift */; };
+		0B2E1FBD1F44A0F500B1481E /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2E1FBC1F44A0F500B1481E /* CheckoutViewController.swift */; };
+		0B2E1FBF1F45306900B1481E /* SavedAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2E1FBE1F45306900B1481E /* SavedAddressViewController.swift */; };
+		0B2E1FC21F4534ED00B1481E /* IngredientsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2E1FC11F4534ED00B1481E /* IngredientsCollectionViewCell.swift */; };
+		0B2E1FC41F4535FF00B1481E /* ShoppingCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2E1FC31F4535FF00B1481E /* ShoppingCartViewController.swift */; };
+		0B4647651F4E7569001C2649 /* DoubleLabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4647641F4E7569001C2649 /* DoubleLabelTableViewCell.swift */; };
+		0B4647671F4EB259001C2649 /* TextViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4647661F4EB259001C2649 /* TextViewTableViewCell.swift */; };
+		0B4647691F5009C0001C2649 /* Ingredients.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B4647681F5009C0001C2649 /* Ingredients.plist */; };
+		0B4C6E2B1F7E348100EECB46 /* OrderScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4C6E2A1F7E348100EECB46 /* OrderScreenViewController.swift */; };
+		0B5CAB051F453FCB00518C34 /* ShoppingCartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB041F453FCB00518C34 /* ShoppingCartTableViewCell.swift */; };
+		0B5CAB091F4540C300518C34 /* SellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB081F4540C300518C34 /* SellView.swift */; };
+		0B5CAB0B1F4540F000518C34 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB0A1F4540F000518C34 /* QuestionsViewController.swift */; };
+		0B5CAB0D1F45414F00518C34 /* PhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB0C1F45414F00518C34 /* PhotoTableViewCell.swift */; };
+		0B5CAB0F1F45417B00518C34 /* PastOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB0E1F45417B00518C34 /* PastOrderViewController.swift */; };
+		0B5CAB111F45423100518C34 /* OrderSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB101F45423100518C34 /* OrderSummaryViewController.swift */; };
+		0B5CAB131F45478600518C34 /* OrderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB121F45478600518C34 /* OrderCollectionViewCell.swift */; };
+		0B5CAB161F454A8700518C34 /* OrderButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB151F454A8700518C34 /* OrderButtonView.swift */; };
+		0B5CAB181F454C3D00518C34 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB171F454C3D00518C34 /* Order.swift */; };
+		0B5CAB1A1F454D9800518C34 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB191F454D9800518C34 /* Ingredient.swift */; };
+		0B5CAB1C1F454DF700518C34 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB1B1F454DF700518C34 /* CalendarViewController.swift */; };
+		0B5CAB1E1F4553B400518C34 /* EmailConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB1D1F4553B400518C34 /* EmailConfirmationViewController.swift */; };
+		0B5CAB201F45543200518C34 /* IngredientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB1F1F45543200518C34 /* IngredientsViewController.swift */; };
+		0B5CAB221F45567000518C34 /* ListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB211F45567000518C34 /* ListingViewController.swift */; };
+		0B5CAB241F4558E400518C34 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB231F4558E400518C34 /* LoginViewController.swift */; };
+		0B5CAB261F455B0A00518C34 /* MealInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB251F455B0A00518C34 /* MealInfoViewController.swift */; };
+		0B5CAB281F45668200518C34 /* MealPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB271F45668200518C34 /* MealPreviewViewController.swift */; };
+		0B5CAB2A1F45705D00518C34 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB291F45705D00518C34 /* CustomButton.swift */; };
+		0B5CAB2D1F45715C00518C34 /* DeliveryTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB2C1F45715C00518C34 /* DeliveryTimeView.swift */; };
+		0B5CAB2F1F4573F900518C34 /* DoubleTextFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB2E1F4573F900518C34 /* DoubleTextFieldTableViewCell.swift */; };
+		0B5CAB311F45741D00518C34 /* EntryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB301F45741D00518C34 /* EntryTableViewCell.swift */; };
+		0B5CAB331F45744D00518C34 /* FAQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB321F45744D00518C34 /* FAQViewController.swift */; };
+		0B5CAB361F45785400518C34 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB351F45785400518C34 /* HoshiTextField.swift */; };
+		0B5CAB381F457C9300518C34 /* IngredientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB371F457C9300518C34 /* IngredientTableViewCell.swift */; };
+		0B5CAB3D1F457E1600518C34 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB3C1F457E1600518C34 /* Meal.swift */; };
+		0B5CAB3F1F457F1600518C34 /* MealPreviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB3E1F457F1600518C34 /* MealPreviewTableViewCell.swift */; };
+		0B5CAB411F457FD300518C34 /* MyOrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB401F457FD300518C34 /* MyOrdersViewController.swift */; };
+		0B5CAB431F45816000518C34 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB421F45816000518C34 /* SignUpViewController.swift */; };
+		0B5CAB451F4586F100518C34 /* T_CViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB441F4586F100518C34 /* T_CViewController.swift */; };
+		0B5CAB471F45878900518C34 /* TabSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB461F45878900518C34 /* TabSegmentedControl.swift */; };
+		0B5CAB4B1F458C4C00518C34 /* ButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB4A1F458C4C00518C34 /* ButtonTableViewCell.swift */; };
+		0B5CAB4D1F458C8600518C34 /* ActiveOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB4C1F458C8600518C34 /* ActiveOrderViewController.swift */; };
+		0B5CAB4F1F458DC100518C34 /* AddMealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB4E1F458DC100518C34 /* AddMealViewController.swift */; };
+		0B5CAB511F45ED4300518C34 /* AddressDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB501F45ED4300518C34 /* AddressDetailViewController.swift */; };
+		0B5CAB531F4681F500518C34 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB521F4681F500518C34 /* LocationViewController.swift */; };
+		0B5CAB551F4685FA00518C34 /* AskGustoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB541F4685FA00518C34 /* AskGustoViewController.swift */; };
+		0B5CAB571F46899D00518C34 /* AboutCookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB561F46899D00518C34 /* AboutCookTableViewCell.swift */; };
+		0B5CAB591F4689FA00518C34 /* ADVSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB581F4689FA00518C34 /* ADVSegmentedControl.swift */; };
+		0B5CAB5B1F468E0F00518C34 /* ThanksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB5A1F468E0F00518C34 /* ThanksViewController.swift */; };
+		0B5CAB5D1F468F6A00518C34 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB5C1F468F6A00518C34 /* User.swift */; };
+		0B5CAB601F46913C00518C34 /* GeneralInqViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB5F1F46913C00518C34 /* GeneralInqViewController.swift */; };
+		0B5CAB621F46916400518C34 /* UserDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB611F46916400518C34 /* UserDashboardViewController.swift */; };
+		0B5CAB641F46917D00518C34 /* TopicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB631F46917D00518C34 /* TopicsViewController.swift */; };
+		0B5CAB661F46918B00518C34 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAB651F46918B00518C34 /* AboutViewController.swift */; };
+		0B9852691F469EE30068872A /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9852681F469EE30068872A /* OrderTableViewCell.swift */; };
+		0B98526B1F469EFC0068872A /* AddressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B98526A1F469EFC0068872A /* AddressTableViewCell.swift */; };
+		0B98526D1F469F400068872A /* TransitionOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B98526C1F469F400068872A /* TransitionOperator.swift */; };
+		0B9852711F46AA630068872A /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9852701F46AA630068872A /* TextFieldEffects.swift */; };
+		0B9852731F4C014C0068872A /* SellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B9852721F4C014C0068872A /* SellView.xib */; };
+		0BACC9431F55429100689588 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0BACC9421F55429100689588 /* GoogleService-Info.plist */; };
+		0BACC9451F55490C00689588 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BACC9441F55490C00689588 /* StorageService.swift */; };
+		0BACC9471F554AD500689588 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BACC9461F554AD500689588 /* PostService.swift */; };
+		0BD287331F66BE3400AE7227 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD287321F66BE3400AE7227 /* CategoryViewController.swift */; };
+		0BF8D1541F56A9AF00B32D14 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF8D1531F56A9AE00B32D14 /* ForgotPasswordViewController.swift */; };
+		0BFD89B21F4C303A0038A792 /* OrderButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BFD89B11F4C303A0038A792 /* OrderButtonView.xib */; };
+		0BFD89B41F4D222B0038A792 /* DeliveryTimeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BFD89B31F4D222B0038A792 /* DeliveryTimeView.xib */; };
+		0FF3BBED9D03FA2F554A2B36 /* Pods_GustoDeliTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45720BD54C885453AA5B87DA /* Pods_GustoDeliTests.framework */; };
+		EDCE15EFDD610976D1D6C169 /* Pods_GustoDeli.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDBBDFB46A13E4CE972A7108 /* Pods_GustoDeli.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B2E1F941F44485A00B1481E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B2E1F771F44485A00B1481E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B2E1F7E1F44485A00B1481E;
+			remoteInfo = GustoDeli;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B2A53161F80D54D001C7305 /* CellDescriptor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor.plist; sourceTree = "<group>"; };
+		0B2E1F7F1F44485A00B1481E /* GustoDeli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GustoDeli.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B2E1F821F44485A00B1481E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0B2E1F841F44485A00B1481E /* GustoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GustoViewController.swift; sourceTree = "<group>"; };
+		0B2E1F871F44485A00B1481E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B2E1F891F44485A00B1481E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B2E1F8C1F44485A00B1481E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0B2E1F8E1F44485A00B1481E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B2E1F931F44485A00B1481E /* GustoDeliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GustoDeliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B2E1F971F44485A00B1481E /* GustoDeliTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GustoDeliTests.swift; sourceTree = "<group>"; };
+		0B2E1F991F44485A00B1481E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B2E1FAA1F444ADE00B1481E /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		0B2E1FAC1F4451B200B1481E /* LabelTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelTableViewCell.swift; sourceTree = "<group>"; };
+		0B2E1FAE1F44714100B1481E /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		0B2E1FB21F448CCB00B1481E /* CookDescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CookDescriptionViewController.swift; sourceTree = "<group>"; };
+		0B2E1FB41F448FBD00B1481E /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		0B2E1FB61F449C0700B1481E /* CompleteOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteOrderViewController.swift; sourceTree = "<group>"; };
+		0B2E1FB81F449D4100B1481E /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		0B2E1FBA1F44A03700B1481E /* TextFieldTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldTableViewCell.swift; sourceTree = "<group>"; };
+		0B2E1FBC1F44A0F500B1481E /* CheckoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
+		0B2E1FBE1F45306900B1481E /* SavedAddressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedAddressViewController.swift; sourceTree = "<group>"; };
+		0B2E1FC11F4534ED00B1481E /* IngredientsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientsCollectionViewCell.swift; sourceTree = "<group>"; };
+		0B2E1FC31F4535FF00B1481E /* ShoppingCartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingCartViewController.swift; sourceTree = "<group>"; };
+		0B4647641F4E7569001C2649 /* DoubleLabelTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleLabelTableViewCell.swift; sourceTree = "<group>"; };
+		0B4647661F4EB259001C2649 /* TextViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewTableViewCell.swift; sourceTree = "<group>"; };
+		0B4647681F5009C0001C2649 /* Ingredients.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Ingredients.plist; sourceTree = "<group>"; };
+		0B4C6E2A1F7E348100EECB46 /* OrderScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderScreenViewController.swift; sourceTree = "<group>"; };
+		0B5CAB041F453FCB00518C34 /* ShoppingCartTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingCartTableViewCell.swift; sourceTree = "<group>"; };
+		0B5CAB081F4540C300518C34 /* SellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SellView.swift; sourceTree = "<group>"; };
+		0B5CAB0A1F4540F000518C34 /* QuestionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
+		0B5CAB0C1F45414F00518C34 /* PhotoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoTableViewCell.swift; sourceTree = "<group>"; };
+		0B5CAB0E1F45417B00518C34 /* PastOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PastOrderViewController.swift; sourceTree = "<group>"; };
+		0B5CAB101F45423100518C34 /* OrderSummaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderSummaryViewController.swift; sourceTree = "<group>"; };
+		0B5CAB121F45478600518C34 /* OrderCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderCollectionViewCell.swift; sourceTree = "<group>"; };
+		0B5CAB151F454A8700518C34 /* OrderButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderButtonView.swift; sourceTree = "<group>"; };
+		0B5CAB171F454C3D00518C34 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		0B5CAB191F454D9800518C34 /* Ingredient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		0B5CAB1B1F454DF700518C34 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		0B5CAB1D1F4553B400518C34 /* EmailConfirmationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailConfirmationViewController.swift; sourceTree = "<group>"; };
+		0B5CAB1F1F45543200518C34 /* IngredientsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientsViewController.swift; sourceTree = "<group>"; };
+		0B5CAB211F45567000518C34 /* ListingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListingViewController.swift; sourceTree = "<group>"; };
+		0B5CAB231F4558E400518C34 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0B5CAB251F455B0A00518C34 /* MealInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealInfoViewController.swift; sourceTree = "<group>"; };
+		0B5CAB271F45668200518C34 /* MealPreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealPreviewViewController.swift; sourceTree = "<group>"; };
+		0B5CAB291F45705D00518C34 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		0B5CAB2C1F45715C00518C34 /* DeliveryTimeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeliveryTimeView.swift; sourceTree = "<group>"; };
+		0B5CAB2E1F4573F900518C34 /* DoubleTextFieldTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleTextFieldTableViewCell.swift; sourceTree = "<group>"; };
+		0B5CAB301F45741D00518C34 /* EntryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryTableViewCell.swift; sourceTree = "<group>"; };
+		0B5CAB321F45744D00518C34 /* FAQViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQViewController.swift; sourceTree = "<group>"; };
+		0B5CAB351F45785400518C34 /* HoshiTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoshiTextField.swift; sourceTree = "<group>"; };
+		0B5CAB371F457C9300518C34 /* IngredientTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientTableViewCell.swift; sourceTree = "<group>"; };
+		0B5CAB3C1F457E1600518C34 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		0B5CAB3E1F457F1600518C34 /* MealPreviewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealPreviewTableViewCell.swift; sourceTree = "<group>"; };
+		0B5CAB401F457FD300518C34 /* MyOrdersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyOrdersViewController.swift; sourceTree = "<group>"; };
+		0B5CAB421F45816000518C34 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		0B5CAB441F4586F100518C34 /* T_CViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = T_CViewController.swift; sourceTree = "<group>"; };
+		0B5CAB461F45878900518C34 /* TabSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabSegmentedControl.swift; sourceTree = "<group>"; };
+		0B5CAB4A1F458C4C00518C34 /* ButtonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonTableViewCell.swift; sourceTree = "<group>"; };
+		0B5CAB4C1F458C8600518C34 /* ActiveOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveOrderViewController.swift; sourceTree = "<group>"; };
+		0B5CAB4E1F458DC100518C34 /* AddMealViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMealViewController.swift; sourceTree = "<group>"; };
+		0B5CAB501F45ED4300518C34 /* AddressDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressDetailViewController.swift; sourceTree = "<group>"; };
+		0B5CAB521F4681F500518C34 /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		0B5CAB541F4685FA00518C34 /* AskGustoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AskGustoViewController.swift; sourceTree = "<group>"; };
+		0B5CAB561F46899D00518C34 /* AboutCookTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutCookTableViewCell.swift; sourceTree = "<group>"; };
+		0B5CAB581F4689FA00518C34 /* ADVSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADVSegmentedControl.swift; sourceTree = "<group>"; };
+		0B5CAB5A1F468E0F00518C34 /* ThanksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThanksViewController.swift; sourceTree = "<group>"; };
+		0B5CAB5C1F468F6A00518C34 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0B5CAB5F1F46913C00518C34 /* GeneralInqViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralInqViewController.swift; sourceTree = "<group>"; };
+		0B5CAB611F46916400518C34 /* UserDashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDashboardViewController.swift; sourceTree = "<group>"; };
+		0B5CAB631F46917D00518C34 /* TopicsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicsViewController.swift; sourceTree = "<group>"; };
+		0B5CAB651F46918B00518C34 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		0B8F87811F53BBA100059C15 /* GustoDeli.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GustoDeli.entitlements; sourceTree = "<group>"; };
+		0B9852681F469EE30068872A /* OrderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderTableViewCell.swift; sourceTree = "<group>"; };
+		0B98526A1F469EFC0068872A /* AddressTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressTableViewCell.swift; sourceTree = "<group>"; };
+		0B98526C1F469F400068872A /* TransitionOperator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionOperator.swift; sourceTree = "<group>"; };
+		0B9852701F46AA630068872A /* TextFieldEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldEffects.swift; sourceTree = "<group>"; };
+		0B9852721F4C014C0068872A /* SellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SellView.xib; sourceTree = "<group>"; };
+		0BACC9421F55429100689588 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0BACC9441F55490C00689588 /* StorageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		0BACC9461F554AD500689588 /* PostService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
+		0BD287321F66BE3400AE7227 /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		0BF8D1531F56A9AE00B32D14 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		0BFD89B11F4C303A0038A792 /* OrderButtonView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderButtonView.xib; sourceTree = "<group>"; };
+		0BFD89B31F4D222B0038A792 /* DeliveryTimeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeliveryTimeView.xib; sourceTree = "<group>"; };
+		45720BD54C885453AA5B87DA /* Pods_GustoDeliTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GustoDeliTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA823494C75FB9A535E26BDA /* Pods-GustoDeliTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GustoDeliTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GustoDeliTests/Pods-GustoDeliTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E8D4C802907975FDA3968EDF /* Pods-GustoDeli.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GustoDeli.release.xcconfig"; path = "Pods/Target Support Files/Pods-GustoDeli/Pods-GustoDeli.release.xcconfig"; sourceTree = "<group>"; };
+		E920C54AE73F2D4CE00930CA /* Pods-GustoDeli.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GustoDeli.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GustoDeli/Pods-GustoDeli.debug.xcconfig"; sourceTree = "<group>"; };
+		F5D6AAEA2A7047FA27BA505A /* Pods-GustoDeliTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GustoDeliTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GustoDeliTests/Pods-GustoDeliTests.release.xcconfig"; sourceTree = "<group>"; };
+		FDBBDFB46A13E4CE972A7108 /* Pods_GustoDeli.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GustoDeli.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B2E1F7C1F44485A00B1481E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCE15EFDD610976D1D6C169 /* Pods_GustoDeli.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B2E1F901F44485A00B1481E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FF3BBED9D03FA2F554A2B36 /* Pods_GustoDeliTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B2E1F761F44485A00B1481E = {
+			isa = PBXGroup;
+			children = (
+				0B2E1F811F44485A00B1481E /* GustoDeli */,
+				0B2E1F961F44485A00B1481E /* GustoDeliTests */,
+				0B2E1F801F44485A00B1481E /* Products */,
+				3F42055A9F7DB46F7017FE51 /* Pods */,
+				3A851489ADF86D6FBFC74732 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0B2E1F801F44485A00B1481E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B2E1F7F1F44485A00B1481E /* GustoDeli.app */,
+				0B2E1F931F44485A00B1481E /* GustoDeliTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B2E1F811F44485A00B1481E /* GustoDeli */ = {
+			isa = PBXGroup;
+			children = (
+				0B8F87811F53BBA100059C15 /* GustoDeli.entitlements */,
+				0B2E1F821F44485A00B1481E /* AppDelegate.swift */,
+				0B2E1FA31F44487300B1481E /* Controller */,
+				0B2E1FA51F44487E00B1481E /* Model */,
+				0B2E1FA21F44486B00B1481E /* View */,
+				0B2E1FA41F44487800B1481E /* SupportingFiles */,
+			);
+			path = GustoDeli;
+			sourceTree = "<group>";
+		};
+		0B2E1F961F44485A00B1481E /* GustoDeliTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B2E1F971F44485A00B1481E /* GustoDeliTests.swift */,
+				0B2E1F991F44485A00B1481E /* Info.plist */,
+			);
+			path = GustoDeliTests;
+			sourceTree = "<group>";
+		};
+		0B2E1FA21F44486B00B1481E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0B5CAB061F4540AF00518C34 /* CustomView */,
+				0B2E1FC01F4534DA00B1481E /* CollectionViewCell */,
+				0B2E1FA61F4448E800B1481E /* TableViewCell */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		0B2E1FA31F44487300B1481E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0BFD89B91F4D3FF70038A792 /* Checkout */,
+				0BFD89B81F4D3FDC0038A792 /* Main Page */,
+				0BFD89B71F4D3FCB0038A792 /* About */,
+				0BFD89B61F4D3FC40038A792 /* Settings */,
+				0BFD89B51F4D3FBE0038A792 /* Introduction */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		0B2E1FA41F44487800B1481E /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				0B2E1F861F44485A00B1481E /* Main.storyboard */,
+				0B2E1F891F44485A00B1481E /* Assets.xcassets */,
+				0B2E1F8B1F44485A00B1481E /* LaunchScreen.storyboard */,
+				0B2E1F8E1F44485A00B1481E /* Info.plist */,
+				0BACC9421F55429100689588 /* GoogleService-Info.plist */,
+				0B2A53161F80D54D001C7305 /* CellDescriptor.plist */,
+				0B4647681F5009C0001C2649 /* Ingredients.plist */,
+				0B2E1FB41F448FBD00B1481E /* Helper.swift */,
+				0BACC9441F55490C00689588 /* StorageService.swift */,
+				0BACC9461F554AD500689588 /* PostService.swift */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		0B2E1FA51F44487E00B1481E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0B5CAB171F454C3D00518C34 /* Order.swift */,
+				0B5CAB191F454D9800518C34 /* Ingredient.swift */,
+				0B5CAB3C1F457E1600518C34 /* Meal.swift */,
+				0B5CAB5C1F468F6A00518C34 /* User.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0B2E1FA61F4448E800B1481E /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				0B2E1FAC1F4451B200B1481E /* LabelTableViewCell.swift */,
+				0B4647641F4E7569001C2649 /* DoubleLabelTableViewCell.swift */,
+				0B2E1FBA1F44A03700B1481E /* TextFieldTableViewCell.swift */,
+				0B5CAB041F453FCB00518C34 /* ShoppingCartTableViewCell.swift */,
+				0B5CAB0C1F45414F00518C34 /* PhotoTableViewCell.swift */,
+				0B5CAB2E1F4573F900518C34 /* DoubleTextFieldTableViewCell.swift */,
+				0B5CAB301F45741D00518C34 /* EntryTableViewCell.swift */,
+				0B5CAB371F457C9300518C34 /* IngredientTableViewCell.swift */,
+				0B5CAB3E1F457F1600518C34 /* MealPreviewTableViewCell.swift */,
+				0B5CAB4A1F458C4C00518C34 /* ButtonTableViewCell.swift */,
+				0B5CAB561F46899D00518C34 /* AboutCookTableViewCell.swift */,
+				0B9852681F469EE30068872A /* OrderTableViewCell.swift */,
+				0B98526A1F469EFC0068872A /* AddressTableViewCell.swift */,
+				0B4647661F4EB259001C2649 /* TextViewTableViewCell.swift */,
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+		0B2E1FC01F4534DA00B1481E /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				0B2E1FC11F4534ED00B1481E /* IngredientsCollectionViewCell.swift */,
+				0B5CAB121F45478600518C34 /* OrderCollectionViewCell.swift */,
+			);
+			name = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		0B5CAB061F4540AF00518C34 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				0B5CAB341F45783C00518C34 /* HoshiTextField */,
+				0B5CAB2B1F45714B00518C34 /* DeliveryTimeView */,
+				0B5CAB141F454A7200518C34 /* OrderButtonView */,
+				0B5CAB071F4540B600518C34 /* SellView */,
+				0B5CAB291F45705D00518C34 /* CustomButton.swift */,
+				0B5CAB461F45878900518C34 /* TabSegmentedControl.swift */,
+				0B5CAB581F4689FA00518C34 /* ADVSegmentedControl.swift */,
+				0B98526C1F469F400068872A /* TransitionOperator.swift */,
+			);
+			name = CustomView;
+			sourceTree = "<group>";
+		};
+		0B5CAB071F4540B600518C34 /* SellView */ = {
+			isa = PBXGroup;
+			children = (
+				0B5CAB081F4540C300518C34 /* SellView.swift */,
+				0B9852721F4C014C0068872A /* SellView.xib */,
+			);
+			name = SellView;
+			sourceTree = "<group>";
+		};
+		0B5CAB141F454A7200518C34 /* OrderButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				0B5CAB151F454A8700518C34 /* OrderButtonView.swift */,
+				0BFD89B11F4C303A0038A792 /* OrderButtonView.xib */,
+			);
+			name = OrderButtonView;
+			sourceTree = "<group>";
+		};
+		0B5CAB2B1F45714B00518C34 /* DeliveryTimeView */ = {
+			isa = PBXGroup;
+			children = (
+				0B5CAB2C1F45715C00518C34 /* DeliveryTimeView.swift */,
+				0BFD89B31F4D222B0038A792 /* DeliveryTimeView.xib */,
+			);
+			name = DeliveryTimeView;
+			sourceTree = "<group>";
+		};
+		0B5CAB341F45783C00518C34 /* HoshiTextField */ = {
+			isa = PBXGroup;
+			children = (
+				0B5CAB351F45785400518C34 /* HoshiTextField.swift */,
+				0B9852701F46AA630068872A /* TextFieldEffects.swift */,
+			);
+			name = HoshiTextField;
+			sourceTree = "<group>";
+		};
+		0BFD89B51F4D3FBE0038A792 /* Introduction */ = {
+			isa = PBXGroup;
+			children = (
+				0B5CAB421F45816000518C34 /* SignUpViewController.swift */,
+				0B5CAB1D1F4553B400518C34 /* EmailConfirmationViewController.swift */,
+				0B5CAB231F4558E400518C34 /* LoginViewController.swift */,
+				0BF8D1531F56A9AE00B32D14 /* ForgotPasswordViewController.swift */,
+			);
+			name = Introduction;
+			sourceTree = "<group>";
+		};
+		0BFD89B61F4D3FC40038A792 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				0B2E1FAE1F44714100B1481E /* ProfileViewController.swift */,
+				0B2E1FB81F449D4100B1481E /* ChangePasswordViewController.swift */,
+				0B5CAB1F1F45543200518C34 /* IngredientsViewController.swift */,
+				0B5CAB521F4681F500518C34 /* LocationViewController.swift */,
+				0B5CAB501F45ED4300518C34 /* AddressDetailViewController.swift */,
+				0B2E1FBE1F45306900B1481E /* SavedAddressViewController.swift */,
+				0B2E1FB21F448CCB00B1481E /* CookDescriptionViewController.swift */,
+				0BD287321F66BE3400AE7227 /* CategoryViewController.swift */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		0BFD89B71F4D3FCB0038A792 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				0B5CAB441F4586F100518C34 /* T_CViewController.swift */,
+				0B5CAB0A1F4540F000518C34 /* QuestionsViewController.swift */,
+				0B5CAB651F46918B00518C34 /* AboutViewController.swift */,
+				0B5CAB5F1F46913C00518C34 /* GeneralInqViewController.swift */,
+				0B5CAB631F46917D00518C34 /* TopicsViewController.swift */,
+				0B5CAB541F4685FA00518C34 /* AskGustoViewController.swift */,
+				0B5CAB321F45744D00518C34 /* FAQViewController.swift */,
+			);
+			name = About;
+			sourceTree = "<group>";
+		};
+		0BFD89B81F4D3FDC0038A792 /* Main Page */ = {
+			isa = PBXGroup;
+			children = (
+				0B2E1F841F44485A00B1481E /* GustoViewController.swift */,
+				0B4C6E2A1F7E348100EECB46 /* OrderScreenViewController.swift */,
+				0B5CAB271F45668200518C34 /* MealPreviewViewController.swift */,
+				0B5CAB1B1F454DF700518C34 /* CalendarViewController.swift */,
+				0B5CAB4C1F458C8600518C34 /* ActiveOrderViewController.swift */,
+				0B5CAB0E1F45417B00518C34 /* PastOrderViewController.swift */,
+				0B5CAB401F457FD300518C34 /* MyOrdersViewController.swift */,
+				0B5CAB5A1F468E0F00518C34 /* ThanksViewController.swift */,
+				0B5CAB4E1F458DC100518C34 /* AddMealViewController.swift */,
+				0B5CAB101F45423100518C34 /* OrderSummaryViewController.swift */,
+				0B5CAB211F45567000518C34 /* ListingViewController.swift */,
+				0B5CAB611F46916400518C34 /* UserDashboardViewController.swift */,
+				0B2E1FAA1F444ADE00B1481E /* MenuViewController.swift */,
+				0B5CAB251F455B0A00518C34 /* MealInfoViewController.swift */,
+			);
+			name = "Main Page";
+			sourceTree = "<group>";
+		};
+		0BFD89B91F4D3FF70038A792 /* Checkout */ = {
+			isa = PBXGroup;
+			children = (
+				0B2E1FB61F449C0700B1481E /* CompleteOrderViewController.swift */,
+				0B2E1FBC1F44A0F500B1481E /* CheckoutViewController.swift */,
+				0B2E1FC31F4535FF00B1481E /* ShoppingCartViewController.swift */,
+			);
+			name = Checkout;
+			sourceTree = "<group>";
+		};
+		3A851489ADF86D6FBFC74732 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDBBDFB46A13E4CE972A7108 /* Pods_GustoDeli.framework */,
+				45720BD54C885453AA5B87DA /* Pods_GustoDeliTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F42055A9F7DB46F7017FE51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E920C54AE73F2D4CE00930CA /* Pods-GustoDeli.debug.xcconfig */,
+				E8D4C802907975FDA3968EDF /* Pods-GustoDeli.release.xcconfig */,
+				BA823494C75FB9A535E26BDA /* Pods-GustoDeliTests.debug.xcconfig */,
+				F5D6AAEA2A7047FA27BA505A /* Pods-GustoDeliTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B2E1F7E1F44485A00B1481E /* GustoDeli */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B2E1F9C1F44485A00B1481E /* Build configuration list for PBXNativeTarget "GustoDeli" */;
+			buildPhases = (
+				BFFF77BE1C648DB60DA8F894 /* [CP] Check Pods Manifest.lock */,
+				0B2E1F7B1F44485A00B1481E /* Sources */,
+				0B2E1F7C1F44485A00B1481E /* Frameworks */,
+				0B2E1F7D1F44485A00B1481E /* Resources */,
+				94CCA1DB375F8883722742B1 /* [CP] Embed Pods Frameworks */,
+				FC5637C12D537A36075189E1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GustoDeli;
+			productName = GustoDeli;
+			productReference = 0B2E1F7F1F44485A00B1481E /* GustoDeli.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B2E1F921F44485A00B1481E /* GustoDeliTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B2E1F9F1F44485A00B1481E /* Build configuration list for PBXNativeTarget "GustoDeliTests" */;
+			buildPhases = (
+				BDAC06B60C3F4371C5C470ED /* [CP] Check Pods Manifest.lock */,
+				0B2E1F8F1F44485A00B1481E /* Sources */,
+				0B2E1F901F44485A00B1481E /* Frameworks */,
+				0B2E1F911F44485A00B1481E /* Resources */,
+				7E158FB1F95FCD4F041E9FE5 /* [CP] Embed Pods Frameworks */,
+				E505AE5E6E3179DBEFD2794B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B2E1F951F44485A00B1481E /* PBXTargetDependency */,
+			);
+			name = GustoDeliTests;
+			productName = GustoDeliTests;
+			productReference = 0B2E1F931F44485A00B1481E /* GustoDeliTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B2E1F771F44485A00B1481E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Noorul Atieqah Binti Mohamad Rosli";
+				TargetAttributes = {
+					0B2E1F7E1F44485A00B1481E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = TR4625Z45Y;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					0B2E1F921F44485A00B1481E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = TR4625Z45Y;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0B2E1F7E1F44485A00B1481E;
+					};
+				};
+			};
+			buildConfigurationList = 0B2E1F7A1F44485A00B1481E /* Build configuration list for PBXProject "GustoDeli" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B2E1F761F44485A00B1481E;
+			productRefGroup = 0B2E1F801F44485A00B1481E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B2E1F7E1F44485A00B1481E /* GustoDeli */,
+				0B2E1F921F44485A00B1481E /* GustoDeliTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B2E1F7D1F44485A00B1481E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B4647691F5009C0001C2649 /* Ingredients.plist in Resources */,
+				0BACC9431F55429100689588 /* GoogleService-Info.plist in Resources */,
+				0BFD89B21F4C303A0038A792 /* OrderButtonView.xib in Resources */,
+				0B9852731F4C014C0068872A /* SellView.xib in Resources */,
+				0B2E1F8D1F44485A00B1481E /* LaunchScreen.storyboard in Resources */,
+				0B2E1F8A1F44485A00B1481E /* Assets.xcassets in Resources */,
+				0B2E1F881F44485A00B1481E /* Main.storyboard in Resources */,
+				0B2A53171F80D54D001C7305 /* CellDescriptor.plist in Resources */,
+				0BFD89B41F4D222B0038A792 /* DeliveryTimeView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B2E1F911F44485A00B1481E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7E158FB1F95FCD4F041E9FE5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GustoDeliTests/Pods-GustoDeliTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94CCA1DB375F8883722742B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GustoDeli/Pods-GustoDeli-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDAC06B60C3F4371C5C470ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BFFF77BE1C648DB60DA8F894 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E505AE5E6E3179DBEFD2794B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GustoDeliTests/Pods-GustoDeliTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC5637C12D537A36075189E1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GustoDeli/Pods-GustoDeli-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B2E1F7B1F44485A00B1481E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B2E1F851F44485A00B1481E /* GustoViewController.swift in Sources */,
+				0B2E1FC21F4534ED00B1481E /* IngredientsCollectionViewCell.swift in Sources */,
+				0B5CAB621F46916400518C34 /* UserDashboardViewController.swift in Sources */,
+				0B5CAB4B1F458C4C00518C34 /* ButtonTableViewCell.swift in Sources */,
+				0B4C6E2B1F7E348100EECB46 /* OrderScreenViewController.swift in Sources */,
+				0B5CAB601F46913C00518C34 /* GeneralInqViewController.swift in Sources */,
+				0B2E1FAB1F444ADE00B1481E /* MenuViewController.swift in Sources */,
+				0B4647651F4E7569001C2649 /* DoubleLabelTableViewCell.swift in Sources */,
+				0B2E1FAD1F4451B200B1481E /* LabelTableViewCell.swift in Sources */,
+				0B5CAB091F4540C300518C34 /* SellView.swift in Sources */,
+				0B2E1FB91F449D4100B1481E /* ChangePasswordViewController.swift in Sources */,
+				0B2E1FBD1F44A0F500B1481E /* CheckoutViewController.swift in Sources */,
+				0B5CAB0D1F45414F00518C34 /* PhotoTableViewCell.swift in Sources */,
+				0B5CAB1C1F454DF700518C34 /* CalendarViewController.swift in Sources */,
+				0B2E1FAF1F44714100B1481E /* ProfileViewController.swift in Sources */,
+				0B5CAB551F4685FA00518C34 /* AskGustoViewController.swift in Sources */,
+				0B5CAB5B1F468E0F00518C34 /* ThanksViewController.swift in Sources */,
+				0B5CAB2F1F4573F900518C34 /* DoubleTextFieldTableViewCell.swift in Sources */,
+				0B2E1FBB1F44A03700B1481E /* TextFieldTableViewCell.swift in Sources */,
+				0B2E1F831F44485A00B1481E /* AppDelegate.swift in Sources */,
+				0B2E1FB31F448CCB00B1481E /* CookDescriptionViewController.swift in Sources */,
+				0B5CAB1A1F454D9800518C34 /* Ingredient.swift in Sources */,
+				0B5CAB4F1F458DC100518C34 /* AddMealViewController.swift in Sources */,
+				0B2E1FB71F449C0700B1481E /* CompleteOrderViewController.swift in Sources */,
+				0B2E1FBF1F45306900B1481E /* SavedAddressViewController.swift in Sources */,
+				0B98526B1F469EFC0068872A /* AddressTableViewCell.swift in Sources */,
+				0B5CAB4D1F458C8600518C34 /* ActiveOrderViewController.swift in Sources */,
+				0B5CAB661F46918B00518C34 /* AboutViewController.swift in Sources */,
+				0BF8D1541F56A9AF00B32D14 /* ForgotPasswordViewController.swift in Sources */,
+				0B5CAB131F45478600518C34 /* OrderCollectionViewCell.swift in Sources */,
+				0B5CAB241F4558E400518C34 /* LoginViewController.swift in Sources */,
+				0B5CAB331F45744D00518C34 /* FAQViewController.swift in Sources */,
+				0BACC9471F554AD500689588 /* PostService.swift in Sources */,
+				0BACC9451F55490C00689588 /* StorageService.swift in Sources */,
+				0B5CAB431F45816000518C34 /* SignUpViewController.swift in Sources */,
+				0B5CAB0F1F45417B00518C34 /* PastOrderViewController.swift in Sources */,
+				0B5CAB1E1F4553B400518C34 /* EmailConfirmationViewController.swift in Sources */,
+				0BD287331F66BE3400AE7227 /* CategoryViewController.swift in Sources */,
+				0B5CAB261F455B0A00518C34 /* MealInfoViewController.swift in Sources */,
+				0B5CAB0B1F4540F000518C34 /* QuestionsViewController.swift in Sources */,
+				0B5CAB311F45741D00518C34 /* EntryTableViewCell.swift in Sources */,
+				0B5CAB181F454C3D00518C34 /* Order.swift in Sources */,
+				0B5CAB221F45567000518C34 /* ListingViewController.swift in Sources */,
+				0B5CAB511F45ED4300518C34 /* AddressDetailViewController.swift in Sources */,
+				0B5CAB641F46917D00518C34 /* TopicsViewController.swift in Sources */,
+				0B5CAB591F4689FA00518C34 /* ADVSegmentedControl.swift in Sources */,
+				0B98526D1F469F400068872A /* TransitionOperator.swift in Sources */,
+				0B5CAB471F45878900518C34 /* TabSegmentedControl.swift in Sources */,
+				0B2E1FB51F448FBD00B1481E /* Helper.swift in Sources */,
+				0B5CAB281F45668200518C34 /* MealPreviewViewController.swift in Sources */,
+				0B5CAB2D1F45715C00518C34 /* DeliveryTimeView.swift in Sources */,
+				0B5CAB3D1F457E1600518C34 /* Meal.swift in Sources */,
+				0B5CAB361F45785400518C34 /* HoshiTextField.swift in Sources */,
+				0B5CAB381F457C9300518C34 /* IngredientTableViewCell.swift in Sources */,
+				0B5CAB111F45423100518C34 /* OrderSummaryViewController.swift in Sources */,
+				0B2E1FC41F4535FF00B1481E /* ShoppingCartViewController.swift in Sources */,
+				0B4647671F4EB259001C2649 /* TextViewTableViewCell.swift in Sources */,
+				0B5CAB531F4681F500518C34 /* LocationViewController.swift in Sources */,
+				0B5CAB411F457FD300518C34 /* MyOrdersViewController.swift in Sources */,
+				0B5CAB451F4586F100518C34 /* T_CViewController.swift in Sources */,
+				0B5CAB3F1F457F1600518C34 /* MealPreviewTableViewCell.swift in Sources */,
+				0B5CAB2A1F45705D00518C34 /* CustomButton.swift in Sources */,
+				0B5CAB201F45543200518C34 /* IngredientsViewController.swift in Sources */,
+				0B9852711F46AA630068872A /* TextFieldEffects.swift in Sources */,
+				0B5CAB051F453FCB00518C34 /* ShoppingCartTableViewCell.swift in Sources */,
+				0B5CAB161F454A8700518C34 /* OrderButtonView.swift in Sources */,
+				0B5CAB571F46899D00518C34 /* AboutCookTableViewCell.swift in Sources */,
+				0B9852691F469EE30068872A /* OrderTableViewCell.swift in Sources */,
+				0B5CAB5D1F468F6A00518C34 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B2E1F8F1F44485A00B1481E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B2E1F981F44485A00B1481E /* GustoDeliTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B2E1F951F44485A00B1481E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B2E1F7E1F44485A00B1481E /* GustoDeli */;
+			targetProxy = 0B2E1F941F44485A00B1481E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0B2E1F861F44485A00B1481E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B2E1F871F44485A00B1481E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0B2E1F8B1F44485A00B1481E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B2E1F8C1F44485A00B1481E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B2E1F9A1F44485A00B1481E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B2E1F9B1F44485A00B1481E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B2E1F9D1F44485A00B1481E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E920C54AE73F2D4CE00930CA /* Pods-GustoDeli.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GustoDeli/GustoDeli.entitlements;
+				DEVELOPMENT_TEAM = TR4625Z45Y;
+				INFOPLIST_FILE = GustoDeli/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.GustoDeli;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0B2E1F9E1F44485A00B1481E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8D4C802907975FDA3968EDF /* Pods-GustoDeli.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GustoDeli/GustoDeli.entitlements;
+				DEVELOPMENT_TEAM = TR4625Z45Y;
+				INFOPLIST_FILE = GustoDeli/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.GustoDeli;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0B2E1FA01F44485A00B1481E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA823494C75FB9A535E26BDA /* Pods-GustoDeliTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TR4625Z45Y;
+				INFOPLIST_FILE = GustoDeliTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.GustoDeliTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GustoDeli.app/GustoDeli";
+			};
+			name = Debug;
+		};
+		0B2E1FA11F44485A00B1481E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5D6AAEA2A7047FA27BA505A /* Pods-GustoDeliTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TR4625Z45Y;
+				INFOPLIST_FILE = GustoDeliTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.GustoDeliTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GustoDeli.app/GustoDeli";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B2E1F7A1F44485A00B1481E /* Build configuration list for PBXProject "GustoDeli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B2E1F9A1F44485A00B1481E /* Debug */,
+				0B2E1F9B1F44485A00B1481E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B2E1F9C1F44485A00B1481E /* Build configuration list for PBXNativeTarget "GustoDeli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B2E1F9D1F44485A00B1481E /* Debug */,
+				0B2E1F9E1F44485A00B1481E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B2E1F9F1F44485A00B1481E /* Build configuration list for PBXNativeTarget "GustoDeliTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B2E1FA01F44485A00B1481E /* Debug */,
+				0B2E1FA11F44485A00B1481E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B2E1F771F44485A00B1481E /* Project object */;
+}
