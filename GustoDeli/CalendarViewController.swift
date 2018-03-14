@@ -86,7 +86,9 @@ class CalendarViewController: UIViewController, CVCalendarViewDelegate, CVCalend
     }
     
     func presentedDateUpdated(_ date: CVDate) {
-        selectedDate = date.description
+        //selectedDate = date.description
+        selectedDate = date.dateDescription
+        print("selectedDate \(selectedDate)")
     }
     
     func disableScrollingBeforeDate() -> Date {

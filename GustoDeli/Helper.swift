@@ -103,9 +103,9 @@ class Helper {
     func convertDateFormater(_ date: String, fromFormat: String, toFormat: String) -> String {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = fromFormat
-        let date = dateFormatter.date(from: date)
+        let date1 = dateFormatter.date(from: date)
         dateFormatter.dateFormat = toFormat
-        return  dateFormatter.string(from: date!)
+        return  dateFormatter.string(from: date1!)
         
     }
     
