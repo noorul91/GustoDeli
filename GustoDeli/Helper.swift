@@ -98,8 +98,6 @@ class Helper {
         }
     }
     
-    
-    
     func convertDateFormater(_ date: String, fromFormat: String, toFormat: String) -> String {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = fromFormat
@@ -108,6 +106,12 @@ class Helper {
         return  dateFormatter.string(from: date1!)
         
     }
+    /**
+    func dateFormattedStringWithFormat(_ format: String, fromDate date: Foundation.Date) -> String {
+        let formatter = DateFormatter()
+        formatter.dateFormat = format
+        return formatter.string(from: date)
+    }**/
     
     func convertDateAsTime(_ date: String) -> Date {
         let dateFormatter = DateFormatter()

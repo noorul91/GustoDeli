@@ -460,8 +460,8 @@ class MealPreviewViewController: UIViewController, UITableViewDataSource, UITabl
     
     //MARK:- CalendarViewControllerDelegate
     func dateWasSelected(_ date: String) {
-        //let formattedDate = Helper().convertDateFormater(date, fromFormat: "EEEE, MMM d, yyyy", toFormat: "EEEE, MMM d")
-        navigationItemButton.setTitle(date, for: .normal)
+        let formattedDate = Helper().convertDateFormater(date, fromFormat: "d MMMM, yyyy", toFormat: "EEEE, MMM d")
+        navigationItemButton.setTitle(formattedDate, for: .normal)
         navigationItemButton.imageView?.transform = .identity
         sellView?.alpha = 1
         calVC = nil
