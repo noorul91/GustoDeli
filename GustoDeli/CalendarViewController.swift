@@ -103,7 +103,7 @@ class CalendarViewController: UIViewController, CVCalendarViewDelegate, CVCalend
     
     //MARK:- CVCalendarViewAppearanceDelegate
     func dayLabelFont(by weekDay: Weekday, status: CVStatus, present: CVPresent) -> UIFont {
-        return UIFont(name: "AppleSDGothicNeo-SemiBold", size: 21)!
+        return UIFont(name: "AppleSDGothicNeo-SemiBold", size: 22)!
     }
     
     func dayLabelColor(by weekDay: Weekday, status: CVStatus, present: CVPresent) -> UIColor? {

@@ -1277,7 +1277,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gmq-fj-hmq">
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gmq-fj-hmq">
                                 <rect key="frame" x="0.0" y="20" width="375" height="2"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1288,8 +1288,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I4I-3Z-VXW">
                                 <rect key="frame" x="0.0" y="22" width="375" height="97"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="TQO-nk-RLQ">
-                                        <rect key="frame" x="19" y="8" width="336.5" height="20.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="TQO-nk-RLQ">
+                                        <rect key="frame" x="10" y="8" width="354.5" height="20.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VPi-zE-rAF">
                                                 <rect key="frame" x="0.0" y="0.0" width="31" height="20.5"/>
@@ -1306,7 +1306,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eTY-UC-PtZ">
-                                                <rect key="frame" x="51" y="0.0" width="36.5" height="20.5"/>
+                                                <rect key="frame" x="54" y="0.0" width="36.5" height="20.5"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="MON">
                                                         <attributes>
@@ -1320,7 +1320,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ci3-dO-0aw">
-                                                <rect key="frame" x="107.5" y="0.0" width="30" height="20.5"/>
+                                                <rect key="frame" x="113.5" y="0.0" width="30" height="20.5"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="TUE">
                                                         <attributes>
@@ -1334,7 +1334,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Re8-Co-LmE">
-                                                <rect key="frame" x="157.5" y="0.0" width="35" height="20.5"/>
+                                                <rect key="frame" x="166.5" y="0.0" width="35" height="20.5"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="WED">
                                                         <attributes>
@@ -1348,7 +1348,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j7z-Gb-hpJ">
-                                                <rect key="frame" x="212.5" y="0.0" width="32" height="20.5"/>
+                                                <rect key="frame" x="224.5" y="0.0" width="32" height="20.5"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="THU">
                                                         <attributes>
@@ -1362,7 +1362,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IuY-cR-Tt7">
-                                                <rect key="frame" x="264.5" y="0.0" width="23.5" height="20.5"/>
+                                                <rect key="frame" x="279.5" y="0.0" width="23.5" height="20.5"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="FRI">
                                                         <attributes>
@@ -1376,7 +1376,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="avI-rv-b74">
-                                                <rect key="frame" x="308" y="0.0" width="28.5" height="20.5"/>
+                                                <rect key="frame" x="326" y="0.0" width="28.5" height="20.5"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="SAT">
                                                         <attributes>
@@ -1392,7 +1392,7 @@
                                         </subviews>
                                     </stackView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f4b-7y-kc6" customClass="CVCalendarView" customModule="CVCalendar">
-                                        <rect key="frame" x="0.0" y="36" width="375" height="61"/>
+                                        <rect key="frame" x="0.0" y="28.5" width="375" height="61"/>
                                         <color key="backgroundColor" red="1" green="0.74509803919999995" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="61" id="6m8-Mv-0S4"/>
@@ -1411,7 +1411,7 @@
                                     <constraint firstAttribute="trailing" secondItem="f4b-7y-kc6" secondAttribute="trailing" id="Ckb-CX-erW"/>
                                     <constraint firstItem="TQO-nk-RLQ" firstAttribute="centerX" secondItem="I4I-3Z-VXW" secondAttribute="centerX" id="Qb5-me-Klf"/>
                                     <constraint firstAttribute="height" constant="97" id="l82-Xc-Es9"/>
-                                    <constraint firstItem="f4b-7y-kc6" firstAttribute="top" secondItem="TQO-nk-RLQ" secondAttribute="bottom" constant="7.5" id="wTU-vv-3Tg"/>
+                                    <constraint firstItem="f4b-7y-kc6" firstAttribute="top" secondItem="TQO-nk-RLQ" secondAttribute="bottom" id="wTU-vv-3Tg"/>
                                     <constraint firstAttribute="width" constant="375" id="yxS-eS-kU3"/>
                                 </constraints>
                             </view>
@@ -5534,15 +5534,14 @@
         <image name="Down icon" width="15" height="9"/>
         <image name="Email icon" width="128" height="128"/>
         <image name="Food Background 1" width="282" height="432"/>
-        <image name="Home icon" width="512" height="512"/>
+        <image name="Home icon" width="256" height="256"/>
         <image name="Meal icon" width="256" height="256"/>
-        <image name="Other location icon" width="236" height="207"/>
+        <image name="Other location icon" width="118" height="103"/>
         <image name="Price icon tag" width="88" height="48"/>
         <image name="Trash icon" width="128" height="128"/>
-        <image name="Work icon" width="512" height="512"/>
+        <image name="Work icon" width="256" height="256"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="A9m-bl-6QT"/>
         <segue reference="AVA-Um-ojZ"/>
         <segue reference="AON-xY-jEl"/>
         <segue reference="aku-sg-EWO"/>
@@ -5551,7 +5550,7 @@
         <segue reference="TIX-vM-gcg"/>
         <segue reference="flc-Gx-3hO"/>
         <segue reference="gjk-Qa-Cm5"/>
-        <segue reference="bfD-F7-IV3"/>
+        <segue reference="M3c-kd-wAe"/>
         <segue reference="EJ5-ei-tMT"/>
         <segue reference="tMk-0X-eSW"/>
         <segue reference="7Wu-Df-SBF"/>
